@@ -4,7 +4,7 @@ import kotlin.math.exp
 
 class ExpressionWriter {
 
-    private var expression = ""
+    var expression = ""
 
     fun processAction(action: CalculatorAction): String {
         when(action) {
